@@ -1,0 +1,20 @@
+{
+  "name": "filename-fixer",
+  "version": "0.0.1",
+  "description": "GitHub Action for fixing filenames in a repository.",
+  "homepage": "https://github.com/piruetasxyz/filename-fixer#readme",
+  "bugs": {
+    "url": "https://github.com/piruetasxyz/filename-fixer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piruetasxyz/filename-fixer.git"
+  },
+  "license": "MIT",
+  "author": "piruetasxyz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
