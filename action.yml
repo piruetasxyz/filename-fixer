@@ -1,5 +1,11 @@
 name: 'filename-fixer'
 description: 'fixes filenames in a repository'
+author: 'piruetaszyz'
 inputs:
-  repository: 'Repository name with owner. For example, piruetaszyz/filename-fixer'
-  default: ${{ github.repository }}
+  fix:
+    description: fix or not issues automatically
+    default: 'false'
+    required: false
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
