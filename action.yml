@@ -1,1 +1,5 @@
 name: 'filename-fixer'
+description: 'fixes filenames in a repository'
+inputs:
+  repository: 'Repository name with owner. For example, piruetaszyz/filename-fixer'
+  default: ${{ github.repository }}
