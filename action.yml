@@ -3,9 +3,12 @@ description: 'fixes filenames in a repository'
 author: 'piruetaszyz'
 inputs:
   fix:
-    description: fix or not issues automatically
+    description: 'fix or not issues automatically'
     default: 'false'
     required: false
+outputs:
+  time: 
+    description: 'time taken to fix issues'
 runs:
   using: 'node20'
   main: 'dist/index.js'
