@@ -1,7 +1,9 @@
 name: 'filename-fixer'
 description: 'fixes filenames in a repository'
 author: 'piruetaszyz'
-icon: 'file'
+branding:
+  icon: 'file'
+  color: 'purple'
 inputs:
   fix:
     description: 'fix or not issues automatically'
